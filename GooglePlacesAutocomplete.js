@@ -1,7 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 import debounce from 'lodash.debounce';
 import PropTypes from 'prop-types';
-import CustomTextInput from '../../components/common/customTextField';
+import CustomTextInput from './customTextField';
 import Qs from 'qs';
 import React, {
   forwardRef,
